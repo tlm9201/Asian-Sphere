@@ -1,0 +1,34 @@
+state={
+	id=73
+	name="STATE_73"
+	manpower = 854300
+	
+	state_category = rural
+	
+	history={
+		victory_points = {
+			3548 1 
+		}
+		owner = NET
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = NET
+		add_claim_by = NET
+		add_claim_by = NET
+
+		1939.3.14 = {
+			owner = NET
+			controller = NET
+			remove_claim_by = NET
+			add_core_of = NET
+			add_core_of = NET
+		}
+	}
+
+	provinces={
+		3548 6571 9563 11536 11691 
+	}
+
+	local_supplies=0.0 
+}

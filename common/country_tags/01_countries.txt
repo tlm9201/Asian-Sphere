@@ -1,0 +1,2 @@
+KOS	= "countries/Kosovo.txt"
+NET = "countries/Neutral Zone.txt"

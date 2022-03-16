@@ -1,0 +1,63 @@
+﻿focus_tree = {
+	id = neutral_zone_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = NET
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = NET_maintain_neutrality
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 5
+		
+		prerequisite = {  }
+
+		cost = .1
+
+		ai_will_do = {
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_rule = {
+				can_boost_other_ideologies = no
+				can_create_factions = no
+				can_declare_war_on_same_ideology = no
+				can_declare_war_without_wargoal_when_in_war = no 
+				can_decline_call_to_war = yes
+				can_guarantee_other_ideologies = no
+				can_join_factions = no
+				can_join_opposite_factions = no
+				can_lower_tension = no
+				can_not_declare_war = yes
+				can_occupy_non_war = no
+				can_puppet = no
+				can_send_volunteers = no
+				can_use_kamikaze_pilots = no
+			}
+			
+
+		}
+	}
+}		
